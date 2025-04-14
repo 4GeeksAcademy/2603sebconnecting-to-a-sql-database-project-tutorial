@@ -69,7 +69,7 @@ Este comando significa lo siguiente:
     Entonces el comando sería:
 
         `$ psql -U postgres -c "CREATE DATABASE mi_base_de_datos OWNER mi_usuario;"`
-4. Conéctate al motor de Postgres para utilizar tu base de datos, manipular tablas y datos:  `$ psql -h localhost -U <username> <db_name>`
+4. Conéctate al motor de Postgres para utilizar tu base de datos, manipular tablas y datos:  `$ `psql -h localhost -U <username> <db_name>
 
 > Recuerda revisar la información del fichero `./.env` para obtener el `username` y el `db_name`.
 
